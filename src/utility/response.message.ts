@@ -1,0 +1,22 @@
+export enum ResponseMessages {
+    ServerError = 'We can not process your request at the moment, sorry for the inconvenience.',
+    Login_Success = 'Login successfully.',
+    Token_Generated = 'Token generated successfully.',
+    Token_Not_Generated = 'Automatically Logout. Please Login again.',
+    Invalid_Credentials = 'Please enter the correct ID - Password',
+    User_Not_Exist = 'Phone number does not exist in our system.Please register yourself within 10 seconds',
+    Token_Expired = 'Your Token has been Expired. Please Generate New Token.',
+    Refresh_Expired_Token = 'Refresh Token Expired.',
+    Users_Not_Found = 'User not exist in the system',
+    Token_Invalid = 'Token Invalid.',
+    Movie_Added = 'Movie added successfully',
+    Movie_Not_Added = 'We are facing problem while adding the movie',
+    Movie_Updated = 'Movie updated successfully',
+    Movie_Not_Updated = 'We are facing problem while updating the movie',
+    Movie_Not_Found = 'Movie not found!',
+    Movie_Deleted = 'Movie deleted successfully',
+    Movie_Not_Deleted = 'We are facing problem while deleting the movie',
+    Invalid_id = 'Please provide a valid ID',
+    Movie_List_Found = 'Movies list found successfully',
+    Movie_List_Not_Found = 'Movies list not found!'
+}
